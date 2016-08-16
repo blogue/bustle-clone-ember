@@ -1,0 +1,25 @@
+.carousel {
+  margin-bottom: 20px;
+}
+.story-img {
+  max-width: 100%;
+  height: auto;
+}
+.text-overlay {
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,.35) 0,rgba(0,0,0,.35) 5%,rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.35) 0,rgba(0,0,0,.35) 5%,rgba(0,0,0,0) 100%);
+    font-family: proxima-nova-alt,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 7px 12px 24px;
+    position: absolute;
+    text-align: left;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+}

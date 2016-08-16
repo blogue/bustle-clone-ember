@@ -1,0 +1,9 @@
+{{new-story saveStory="saveStory"}}
+
+<ul>
+  {{#each model as |story|}}
+    {{story-tile story=story}}
+    <button {{action 'destroyStory' story}}>Delete</button>
+    {{update-story story=story update="update"}}
+  {{/each}}
+</ul>

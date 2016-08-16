@@ -1,0 +1,18 @@
+<div class="carousel">
+  {{#swiper-container pagination=true loop=true slidesPerView=2 spaceBetween=5}}
+  {{#each model as |story|}}
+  {{#swiper-slide}}<img src={{story.picture}}>{{/swiper-slide}}
+  {{/each}}
+  {{/swiper-container}}
+
+</div>
+
+{{#each model as |story|}}
+  <div class="col-sm-4">
+    <img class="story-img" src={{story.picture}}>
+    <div class="text-overlay">
+      {{story.category}}
+  </div>
+  {{story-tile story=story}}
+  </div>
+{{/each}}
